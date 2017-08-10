@@ -23,11 +23,11 @@
           <!-- <a href="http://naver.com" class="col s2 offset-s4"style="color: inherit; width:180px">아 이 디   찾 기</a> <div class="col s1" id = "bar">|</div> <a href="http://naver.com" style="color: inherit; width: 180px"class="col s2">비 밀 번 호   찾 기</a> -->
         </div>
         <div class="submit_form" style="margin: 30px;">
-        <%= form_for(:session, url: login_path) do |f| %>
+        <%= form_for(@user) do |f| %>
           <div><%= f.text_field :username, :placeholder => "id",id:"submit_space"%></div>
           <div><%= f.password_field :password, :placeholder => "Password", id:"submit_space"%></div>
           <div><%= f.password_field :password_confirmation, :placeholder => "password_confirmation", id:"submit_space" %></div>
-          <%= f.submit "로  그  인", id: "submit_button" %>
+          <%= f.submit "회  원  가  입", id: "submit_button" %>
         <% end %>
         </div>
       </div>
