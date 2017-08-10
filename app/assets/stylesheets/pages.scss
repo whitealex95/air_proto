@@ -1,0 +1,16 @@
+#start_button {
+  display: inline-block;
+  padding: 5px 420px ;
+  font-size: 32px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #02aad1;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px #999;
+}
+
+#start_button:hover {background-color: #00008B;}

@@ -1,0 +1,12 @@
+body {
+   background-color: white;
+   color: #42210B;
+
+}
+.main_buttons{
+  font-size: 170%;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+}
